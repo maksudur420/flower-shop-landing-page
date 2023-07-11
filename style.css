@@ -1,0 +1,243 @@
+/* Global Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+/* button style */
+.btn{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px; 
+    border: none;
+}
+/* Headder section style */
+header{
+    width: 100%;
+    height: 100vh;
+}
+.banner{
+    height: 100%;
+    background: rgba(229, 84, 115, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 20px 120px 0px;
+    gap: 60px;
+    align-items: center;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-heading{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.banner-info{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-img{
+    width: 450px;
+    height: 600px;
+    padding-top: 50px;
+}
+.feature-section{
+    margin: 120px 120px 100px;
+}
+.feature-info{
+    margin: auto;
+    text-align: center;
+}
+.feature-head{
+    color: #272727;
+    margin: auto;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.feature-txt{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: auto;
+}
+.feature-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.item-card{
+    width: 340px;
+    height: 400px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.item-card1{
+    width: 340px;
+    height: 400px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.item-card2{
+    background: rgba(71, 125, 17, 0.15);
+    width: 340px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.item-img{
+    padding: 122px 73px 0px;
+    width: 300px;
+    height: 400px;
+}
+.item{
+    text-align: center;
+}
+.feature-link{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+}
+.service-section{
+    margin: 0px 120px 100px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-type{
+    text-align: center;
+    padding: 50px 0px;
+}
+.service-img{
+    padding: 20px 0px;
+}
+.service-info{
+    padding: 20px 0px;
+}
+.offer-section{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin: 50px 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 120px;
+}
+.offer-info{
+    text-align: center;
+    width: 50%;
+}
+.offer-img{
+    width: 50%;
+    text-align: center;
+}
+.offer-img img{
+    width: 318px;
+    height: 420px;
+}
+.offer-txt{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.feature-section-2{
+    margin: 50px 120px 100px;
+}
+.social-thumb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.thumb-img{
+    width: 242px;
+    height: 296px;
+}
+.subscription{
+    margin: 50px 120px 100px;
+    background: url(images/rectangle9.png),no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 90px 120px;
+}
+.subscription h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.input-sub{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-sub [type="text"]{
+    padding: 20px 23px;
+    border-radius: 3px;
+    border: none;
+    width: 700px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer{
+    background: #111010;
+    text-align: center;
+    padding: 90px 120px;
+}
+footer h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+footer p{
+    padding: 10px 250px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer p:last-child{
+    color: rgba(255, 255, 255, 0.40);
+}
